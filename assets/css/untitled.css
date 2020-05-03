@@ -1,0 +1,74 @@
+@media (min-width: 300px) {
+  form > h5 {
+    font-size: 1.7em;
+  }
+}
+
+@media (min-width: 300px) {
+  form {
+    padding: 30px;
+  }
+}
+
+.text-center {
+  color: #3C7DFF;
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
+.sidenav {
+  height: 40%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  margin-left: 25%;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+html, body {
+  width: 100%;
+  overflow: hidden;
+}
+
+.text-center {
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /*height: 60px;*/
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+

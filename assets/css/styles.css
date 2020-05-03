@@ -1,0 +1,41 @@
+.img {
+  width: 10%;
+  position: absolute;
+  margin-top: 145.5%;
+  margin-left: -41%;
+}
+
+@media (min-width: 300px) {
+  body {
+    background-image: url("../../assets/img/ipad%20bg.png");
+  }
+}
+
+@media (min-width: 300px) {
+  p {
+    color: rgb(247,248,248);
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 300px) {
+  .abclogo {
+    width: 70%;
+  }
+}
+
+@media (min-width: 300px) {
+  .text-center {
+    text-align: center;
+    /*position: absolute;*/
+    color: #3C7DFF;
+    font-size: 40PX;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 800;
+    color: #3c7dff;
+    font-family: 'Exo 2', sans-serif;
+    /*margin-top: initial;*/
+    padding: 30px;
+  }
+}
+
